@@ -1,0 +1,73 @@
+.Navbar {
+    display: flex;
+    background-color: rgb(231, 136, 13);
+    flex-wrap: wrap;
+    box-shadow: 0 0 10px rgb(140, 218, 228);
+  }
+  .link {
+    text-decoration: none;
+    color:rgb(89, 29, 230);
+    list-style: none;
+    margin-left: -20px;
+    padding: 25px;
+    margin-top: 3px;
+    font-weight: 600;
+  }
+  img {
+    height: 45px;
+    width: 45px;
+    margin: 10px 30px 0 60px;
+    padding: 2px;
+  }
+  .search-input {
+    height: 40px;
+    width: 380px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(241, 241, 241, 0.527);
+    margin-top: 20px;
+    margin-left: 85px;
+    text-indent: 55px;
+  }
+  .search-input:focus {
+    outline: none;
+    box-shadow: 0 0 1px;
+  }
+  .search-img {
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 20px;
+    margin-left: 100px;
+  }
+  .right-nav-part {
+    position: absolute;
+    right: 5px;
+    margin-top: 8px;
+  }
+  .right-nav-part img {
+    height: 25px;
+    width: 25px;
+    position: relative;
+    left: -100px;
+    margin-right: -10px;
+    /* margin-left: 1px; */
+  }
+  .right-nav-part label {
+    position: absolute;
+    font-size: small;
+  }
+  .profile-label {
+    left: -100px;
+    top: 35px;
+  }
+  .wishlist-label {
+    left: -47px;
+    top: 37px;
+  }
+  
+  .bag-label {
+    left: 42px;
+    top: 37px;
+    z-index: 1;
+  }
